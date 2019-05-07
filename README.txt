@@ -2,7 +2,7 @@ copied from https://github.com/stdupp/goasciiart, but made into library
 
 example:
 
-go get https://github.com/jackdoe/img2ascii
+go get github.com/jackdoe/img2ascii
 
 
 usage:
