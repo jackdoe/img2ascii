@@ -12,7 +12,7 @@ img := image.Decode...
 ascii := string(Img2Ascii(ScaleImage(img, 80)))
 
 // or from file
-ascii := string(MustFile2Ascii(os.Argv[0], 80))
+ascii := string(MustFile2Ascii(os.Args[1], 80))
 
 
 example: 
